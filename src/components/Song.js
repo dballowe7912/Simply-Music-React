@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 class Song extends React.Component {
 
     constructor(props) {
@@ -8,12 +9,11 @@ class Song extends React.Component {
     }
     
     render() {
-        console.log(this.props)
+        
         return (
             <tr>
                 <td>
-                    <button>play</button>
-                    <button>pause</button>
+                    <audio ref="audio_tag" src={this.props.song.location} controls autoPlay/>
                 </td>
                 <td>{this.props.song.title}</td>
                 <td>{this.props.song.artist}</td>

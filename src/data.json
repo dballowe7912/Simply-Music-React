@@ -5,7 +5,7 @@
         "artist": "Me",
         "length": "-",
         "lengthElem": null,
-        "location": "audio/dirty.mp4",
+        "location": "./audio/dirty.mp4",
         "audio": null
     },
     {
@@ -13,7 +13,7 @@
         "title": "SnakeBit",
         "artist": "Me",
         "length": "-",
-        "location": "audio/Snakebit.mp4",
+        "location": "./audio/Snakebit.mp4",
         "audio": null
     },
     {
@@ -21,7 +21,7 @@
         "title": "Lead Way",
         "artist": "Me",
         "length": "-",
-        "location": "audio/leadWay.mp4",
+        "location": "./audio/leadWay.mp4",
         "audio": null
     },
     {
@@ -29,7 +29,7 @@
         "title": "Longest Road",
         "artist": "Me",
         "length": "-",
-        "location": "audio/longestRoad.mp4",
+        "location": "./audio/longestRoad.mp4",
         "audio": null
     }
 ]
